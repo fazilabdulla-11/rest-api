@@ -8,3 +8,4 @@ class Book(models.Model):
     stock=models.IntegerField()
     published_date=models.DateField()
     description=models.TextField(max_length=400)
+
